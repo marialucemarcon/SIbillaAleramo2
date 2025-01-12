@@ -1,0 +1,297 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size:1.5vw;
+}
+
+.high{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  font-size:1.5vw;
+}
+
+
+ h3{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6B3E2B;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin:auto;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  width: 25%;
+}
+
+.item{
+  display: block;
+  width: 150%;
+  padding-left: 200px;
+}
+
+.cover {
+  display: block;
+  margin: auto;
+  width: 100%
+}
+
+
+    /*-------codice menù-------*/
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #6B3E2B;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul.menu li {
+    position: relative;
+}
+
+ul.menu li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover sul link del menu principale */
+ul.menu li:hover {
+    background-color: #555;
+}
+
+/* Stili per il dropdown */
+ul.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.dropdown-menu li a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover sugli elementi del sottomenu */
+ul.dropdown-menu li a:hover {
+    background-color: #666;
+}
+
+/* Mostra il dropdown al passaggio del mouse */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+    /*-------fine codice menù-------*/
+
+
+.quote {
+  font-family: 'Courier New', monospace;
+  text-align: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  font-size: 1.5vw;
+}
+
+pre{
+  text-align: left;
+  padding-top: 60px;
+}
+
+
+.didascalia{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 25%;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 1vw;
+}
+
+
+.carousel-image{
+  display: block;
+  margin:auto;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.carousel-inner{
+  background-color: #B28E79;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 7px;
+}
+.container > div {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.columns{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 7px;
+}
+.columns > div{
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+iframe.embedd-map{
+  display: block;
+  margin:auto;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.map-section {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+  color: #ffffff;
+  background-color: #B28E79;
+  padding: 30px;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+  color: #ffffff;
+  background-color: #6B3E2B;
+  padding: 30px;
+}
+
+.foot{
+  margin-left: 40px;
+  padding-bottom: 10px;
+}
+
+.foot-aside {
+  font-style: normal;
+  font-size: 1vw;
+  margin-right: 15px;
+  margin-top: 95px;
+  float: right;
+  background-color: #6B3E2B;
+}
+
+
+.logo {
+  width: 5%;
+  margin-top: 30px;
+  margin-left: 55px;
+  margin-bottom: 30px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #ffffff;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #B28E79;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
